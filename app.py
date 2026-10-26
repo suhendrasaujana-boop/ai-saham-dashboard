@@ -1,4 +1,4 @@
-t5.metric("Profit factor", "∞" if pf == float("inf") else f"{pf:.2f}")
+            t5.metric("Profit factor", "∞" if pf == float("inf") else f"{pf:.2f}")
             t6.metric("Win rate", f"{bt['win_rate']:.1f}%")
             t7, t8, t9 = st.columns(3)
             t7.metric("Closed trades", str(bt["num_trades"]))
